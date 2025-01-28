@@ -1,0 +1,155 @@
+section {
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+.text-green,
+.btn.text-green {
+    color: #065f5c;
+}
+
+.datenquelle {
+    font-weight: 400;
+}
+
+.list-style-5 li {
+    border-bottom: 0px;
+}
+
+.bg-deep-green {
+    background-color: #089995;
+}
+
+a:hover {
+    color: #089995;
+    text-decoration: none;
+}
+
+a.text-green-hover:hover {
+    color: #089995 !important;
+}
+
+.slider-example-focus {
+    transition: box-shadow 200ms ease-in-out;
+}
+
+.slider-example-focus:focus {
+    outline: none;
+    box-shadow: 0px 0px 15px 5px #089995;
+}
+
+.slider-example-relative-size {
+    --default-handle-width: clamp(40px, 10vw, 200px);
+}
+
+.slider-example-opacity-and-size:focus {
+    --default-handle-opacity: 0;
+}
+
+.slider-example-opacity-and-size {
+    --default-handle-width: 200px;
+    --default-handle-color: #132c74;
+}
+
+.grayscale-filter {
+    filter: grayscale(100%);
+}
+
+
+.border-color-green {
+    border-color: #089995 !important;
+}
+
+
+.scroll-top-arrow:hover {
+    background: #089995;
+}
+
+.navbar-collapse a.custom-link {
+    color: #09b6b4 !important;
+}
+
+span.navbar-menu-trigger {
+    background: #09b6b4 !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.chart-percent {
+    text-align: -webkit-center
+}
+
+.gallery-item {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.img-responsive {
+    margin: 5px
+}
+
+.text-deep-green {
+    color: #089995 !important;
+}
+
+.custom-header {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+h2.custom-home-portfolio-header {
+    font-size: 25px;
+    line-height: 1.2;
+    color: #232323;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    h2.custom-home-portfolio-header {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+}
+
+@media (min-width: 1200px) {
+    h2.custom-home-portfolio-header {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+}
+
+/* .text-extra-large {
+    margin: 0 0 25px;
+} */
+
+
+
+.feature-box:before,
+.feature-box .content:before,
+.feature-box:after,
+.feature-box .content:after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    background-color: #cacaca;
+    z-index: 1;
+}

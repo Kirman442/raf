@@ -1,0 +1,38 @@
+.my-masonry-grid {
+    display: flex;
+    margin-left: -30px;
+    /* Отступ для выравнивания колонок */
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    padding-left: 30px;
+    /* Отступ внутри колонок */
+    background-clip: padding-box;
+}
+
+.grid-item {
+    margin-bottom: 30px;
+    background: #1d1d1d;
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+}
+
+.grid-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.grid-item .content {
+    text-align: left;
+}
+
+.grid-item .date {
+    display: block;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 5px;
+}

@@ -44,13 +44,15 @@ const Subsidiary = () => {
             <section className="cover-background background-position-top top-space"
                 style={{ backgroundImage: `url(${bankruptImage})`, marginTop: "72px", visibility: "visible", padding: "130px" }}
             >
-                <div className="opacity-medium bg-extra-dark-gray"></div>
-                <div class="container-fluid padding-five-lr">
-                    <div class="row justify-content-end">
-                        <div class="col-xxl-5 col-xl-6 col-lg-7">
-                            <div class="padding-ten-all md-padding-70px-all sm-padding-25px-all bg-white box-shadow-light">
-                                <i class="fa-solid fa-quote-left text-deep-pink icon-extra-large margin-5px-bottom"></i>
-                                <p class="text-extra-dark-gray margin-50px-bottom md-margin-20px-bottom alt-font">Hello, I'm a UI/UX Designer &amp; Frontend Developer from Victoria, Australia. I hold a master degree of Design from World University.</p>
+                <div className="container-fluid padding-five-lr">
+                    <div className="row justify-content-end">
+                        {/* <h6 className="alt-font font-weight-700 text-blue margin-20px-bottom bg-white-opacity text-uppercase">Защита от субсидиарной ответственности</h6> */}
+                        <div className="col-xxl-5 col-xl-6 col-lg-7">
+
+                            <div className="padding-ten-all md-padding-70px-all sm-padding-25px-all bg-white box-shadow-light">
+                                <h1 className="text-medium alt-font font-weight-700 text-green margin-20px-bottom bg-white-opacity text-uppercase">Защита от субсидиарной ответственности</h1>
+                                {/* <i className="fa-solid fa-quote-left text-green icon-large margin-5px-bottom"></i> */}
+                                <p className="text-extra-dark-gray margin-10px-bottom md-margin-10px-bottom alt-font">Проводим работу на всех стадиях по подготовке к защите от привлечения к субсидиарной ответственности. Даже если привлечение к ней неизбежно, то можно существенно снизить ее объем и защитить активы.</p>
                             </div>
                         </div>
                     </div>

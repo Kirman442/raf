@@ -157,3 +157,17 @@ h2.custom-home-portfolio-header {
 .tab-style3 .nav-tabs>li>a.nav-link:hover {
     color: #089995 !important;
 }
+
+
+.btn.btn-deep-green:hover,
+.btn.btn-deep-green:focus {
+    background: transparent;
+    border-color: #089995;
+    color: #089995 !important;
+}
+
+.btn.btn-deep-green {
+    background: #089995;
+    border-color: #089995;
+    color: #ffffff;
+}

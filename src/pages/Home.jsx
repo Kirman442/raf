@@ -410,7 +410,7 @@ const Home = () => {
             </section>
 
             <section className="wow animate__fadeIn" >
-                <div className="container px-0">
+                <div className="container px-0 padding-five-bottom">
                     <div className="row justify-content-center">
                         <div className="col-lg-6 col-md-8 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
                             <h5 className="alt-font font-weight-700 text-extra-dark-gray text-uppercase mb-0">Давайте решим проблему</h5>

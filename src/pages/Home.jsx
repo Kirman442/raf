@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Head from '../components/Head';
+import ContactForm from "../components/ContactForm";
+
 import { Link } from "react-router-dom";
 // import HomeGallery from "../components/HomeGallery";
 
@@ -453,6 +455,8 @@ const Home = () => {
                         {/* <!-- end contact info item --> */}
                     </div>
                 </div>
+
+                <ContactForm />
             </section >
 
 

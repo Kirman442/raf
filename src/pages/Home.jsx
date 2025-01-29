@@ -51,8 +51,8 @@ const Home = () => {
                     <div className="row align-items-center">
                         <div className="row align-items-center">
                             <div className="col-12 d-flex flex-column text-center justify-content-center page-title-large padding-30px-tb">
-                                <span className="d-block text-white-2 opacity6 alt-font margin-5px-bottom">Мы команда профессиональных арбитражных управляющих</span>
-                                <h4 className="alt-font text-white-2 font-weight-600 mb-0">Берём на себя Ваши заботы</h4>
+                                <span className="d-block text-white-2 opacity6 alt-font margin-5px-bottom text-large">Мы команда профессиональных арбитражных управляющих</span>
+                                <h3 className="alt-font text-white-2 opacity8 font-weight-600 mb-0">Берём на себя Ваши заботы</h3>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,10 @@ const Home = () => {
                         <div className="col-lg-7 col-md-6 text-center text-md-start padding-eight-lr lg-padding-six-lr md-padding-15px-lr">
                             <span className="text-green alt-font margin-10px-bottom d-inline-block text-medium">Не беспокойтесь, Вы в надёжных руках</span>
                             <h6 className="alt-font text-extra-dark-gray">Мы заботимся об успехе наших клиентов от начала и до конца. Наш опыт помогает создавать решения.</h6>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is printing and typesetting simply dummy text.</p>
+                            <p>Мы сопровождаем процедуры банкротства на всех этапах, обеспечивая защиту интересов наших клиентов.
+                                Наши специалисты помогают грамотно урегулировать финансовые трудности, минимизируя риски и потери.
+                                Опираясь на многолетний опыт, мы разрабатываем стратегии, которые ведут к оптимальному решению сложных ситуаций.
+                                Доверьтесь профессионалам – мы берём на себя все юридические и организационные вопросы, чтобы Вы могли сосредоточиться на новом этапе жизни.</p>
                             {/* <Link className="btn btn-dark-gray btn-small text-extra-small btn-rounded margin-5px-top" to="Services" aria-label="Services link"><i className="margin-5px-right no-margin-left" aria-hidden="true"></i>Наши услуги</Link> */}
                             {/* <a href="services" className="btn btn-dark-gray btn-small text-extra-small btn-rounded margin-5px-top"><i className="fa-solid fa-circle-play icon-very-small margin-5px-right no-margin-left" aria-hidden="true"></i> Наши услуги</a> */}
                         </div>
@@ -81,15 +84,17 @@ const Home = () => {
                     <div className="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
                         <div className="col-sm-8 md-margin-60px-bottom sm-margin-40px-bottom text-center text-md-start ">
                             <span className="text-extra-dark-gray alt-font text-large margin-15px-bottom d-block md-margin-5px-bottom">Расскажите, что случилось?</span>
-                            <p className="w-90 md-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been standard dummy text ever since. Lorem Ipsum been the industry. Lorem Ipsum has been.</p>
+                            <p className="w-90 md-w-100">Мы внимательно выслушаем вашу ситуацию и разберёмся в деталях. Анализируем финансовое положение, обязательства и возможные пути решения. Наши эксперты оценят риски и предложат первый шаг к выходу из сложной ситуации.</p>
                         </div>
-                        <div className="col-sm-8 md-margin-60px-bottom sm-margin-40px-bottom text-center text-md-start " data-wow-delay="0.2s">
+                        <div className="col-sm-8 md-margin-60px-bottom sm-margin-40px-bottom text-center text-md-start " >
                             <span className="text-extra-dark-gray alt-font text-large margin-15px-bottom d-block md-margin-5px-bottom">Разработка стратегии</span>
-                            <p className="w-90 md-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been standard dummy text ever since. Lorem Ipsum been the industry. Lorem Ipsum has been.</p>
+                            <p className="w-90 md-w-100">На основе полученных данных мы разрабатываем персональный план действий. Оптимизируем процесс с учётом законодательных требований и вашей выгоды. Прозрачность и эффективность — ключевые принципы нашей работы.</p>
                         </div>
-                        <div className="col-sm-8 text-center text-md-start " data-wow-delay="0.4s">
-                            <span className="text-extra-dark-gray alt-font text-large margin-15px-bottom d-block md-margin-5px-bottom">Нацеленность на результат</span>
-                            <p className="w-90 md-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been standard dummy text ever since. Lorem Ipsum been the industry. Lorem Ipsum has been.</p>
+                        <div className="col-sm-8 text-center text-md-start ">
+                            <span className="text-extra-dark-gray alt-font text-large margin-15px-bottom d-block md-margin-5px-bottom">Защита интересов на каждом этапе</span>
+                            <p className="w-90 md-w-100">Мы сопровождаем вас на всех этапах процедуры, включая судебные разбирательства. Грамотно отстаиваем права клиентов, используя проверенные юридические инструменты. Наша цель — максимально выгодный для вас результат.
+
+                            </p>
                         </div>
                     </div>
                     {/* <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center">
@@ -413,7 +418,7 @@ const Home = () => {
                         {/* <!-- start contact info item --> */}
                         <div className="col text-center md-margin-eight-bottom sm-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin">
                             <div className="d-inline-block margin-20px-bottom">
-                                <div className="bg-extra-dark-gray icon-round-medium"><i className="icon-map-pin icon-medium text-white-2"></i></div>
+                                <div className="bg-deep-green icon-round-medium"><i className="icon-map-pin icon-medium text-white-2"></i></div>
                             </div>
                             <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">Приходите к нам</div>
                             <p className="mx-auto">Краснодар, ул. Красная 35, офис 120<br />Шалдин и Партнёры</p>
@@ -422,16 +427,16 @@ const Home = () => {
                         {/* <!-- start contact info item --> */}
                         <div className="col text-center md-margin-eight-bottom sm-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin">
                             <div className="d-inline-block margin-20px-bottom">
-                                <div className="bg-extra-dark-gray icon-round-medium"><i className="icon-chat icon-medium text-white-2"></i></div>
+                                <div className="bg-deep-green  icon-round-medium"><i className="icon-chat icon-medium text-white-2"></i></div>
                             </div>
-                            <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">давайте поговорим</div>
+                            <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">поговорим о деле</div>
                             <p className="mx-auto">Тел: 452-5989</p>
                         </div>
                         {/* <!-- end contact info item --> */}
                         {/* <!-- start contact info item --> */}
                         <div className="col text-center xs-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin">
                             <div className="d-inline-block margin-20px-bottom">
-                                <div className="bg-extra-dark-gray icon-round-medium"><i className="icon-envelope icon-medium text-white-2"></i></div>
+                                <div className="bg-deep-green icon-round-medium"><i className="icon-envelope icon-medium text-white-2"></i></div>
                             </div>
                             <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">напишите нам</div>
                             <p className="mx-auto"><a href="mailto:info@domain.ru">info@domain.ru</a></p>
@@ -440,7 +445,7 @@ const Home = () => {
                         {/* <!-- start contact info item --> */}
                         <div className="col text-center wow animate__fadeInUp last-paragraph-no-margin">
                             <div className="d-inline-block margin-20px-bottom">
-                                <div className="bg-extra-dark-gray icon-round-medium"><i className="icon-megaphone icon-medium text-white-2"></i></div>
+                                <div className="bg-deep-green icon-round-medium"><i className="icon-megaphone icon-medium text-white-2"></i></div>
                             </div>
                             <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">Whatsapp</div>
                             <p className="mx-auto">Тел: 125-7896</p>

@@ -153,3 +153,7 @@ h2.custom-home-portfolio-header {
     background-color: #cacaca;
     z-index: 1;
 }
+
+.tab-style3 .nav-tabs>li>a.nav-link:hover {
+    color: #089995 !important;
+}

@@ -413,7 +413,7 @@ const Home = () => {
                 <div className="container px-0 padding-five-bottom">
                     <div className="row justify-content-center">
                         <div className="col-lg-6 col-md-8 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
-                            <h5 className="alt-font font-weight-700 text-extra-dark-gray text-uppercase mb-0">Давайте решим проблему</h5>
+                            <h5 className="alt-font font-weight-700 text-extra-gray text-uppercase mb-0">Давайте решим проблемы</h5>
                         </div>
                     </div>
                     <div className="row row-cols-1 row-cols-lg-4 row-cols-sm-2">
@@ -447,7 +447,7 @@ const Home = () => {
                         {/* <!-- start contact info item --> */}
                         <div className="col text-center wow animate__fadeInUp last-paragraph-no-margin">
                             <div className="d-inline-block margin-20px-bottom">
-                                <div className="bg-deep-green icon-round-medium"><i className="icon-megaphone icon-medium text-white-2"></i></div>
+                                <div className="bg-deep-green icon-round-medium"><i className="icon-mobile icon-medium text-white-2"></i></div>
                             </div>
                             <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">Whatsapp</div>
                             <p className="mx-auto">Тел: 125-7896</p>

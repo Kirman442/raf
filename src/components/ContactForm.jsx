@@ -12,7 +12,7 @@ const ContactForm = () => {
     const [status, setStatus] = useState(""); // Сообщение об успехе/ошибке
 
     // Регулярное выражение для email
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
     // Обработчик изменения полей
     const handleChange = (e) => {
@@ -45,7 +45,7 @@ const ContactForm = () => {
 
         // Проверка email (если заполнен)
         if (formData.email && !emailPattern.test(formData.email)) {
-            setStatus("⚠️ Некорректный формат email.");
+            setStatus("⚠️ Некорректный формат email. Введите полный адрес (example@domain.com).");
             return;
         }
 
@@ -75,9 +75,10 @@ const ContactForm = () => {
             <div className="row justify-content-center">
                 <div className="col-lg-7 text-center margin-50px-bottom sm-margin-40px-bottom">
                     <div className="position-relative overflow-hidden w-100">
-                        <span className="text-large text-outside-line-full alt-font font-weight-600 text-uppercase">
+                        <span className="text-large text-outside-line-full padding-three-bottom alt-font font-weight-600 text-uppercase">
                             Оставьте нам сообщение
                         </span>
+                        <span className="text-green alt-font text-large d-block md-margin-5px-bottom">И мы вам обязательно перезвоним</span>
                     </div>
                 </div>
             </div>
@@ -90,7 +91,7 @@ const ContactForm = () => {
                             type="text"
                             name="name"
                             placeholder="Имя*"
-                            className="input-border-bottom required"
+                            className="text-green input-border-bottom required"
                             value={formData.name}
                             onChange={handleChange}
                             required

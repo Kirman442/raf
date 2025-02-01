@@ -44,7 +44,7 @@ const Home = () => {
                 description="Мы профессиональные арбитражные управляющие, Берём на себя Ваши заботы"
             />
             <section className="cover-background background-position-top top-space"
-                style={{ backgroundImage: `url(${gislogo})`, marginTop: "72px", visibility: "visible", padding: "130px" }}
+                style={{ backgroundImage: `url(${gislogo})`, visibility: "visible", padding: "130px" }} //marginTop: "72px",
             >
                 <div className="opacity-medium bg-extra-dark-gray"></div>
                 <div className="container position-relative">

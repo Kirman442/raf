@@ -171,3 +171,13 @@ h2.custom-home-portfolio-header {
     border-color: #089995;
     color: #ffffff;
 }
+
+.footer-logo-legal {
+    max-height: 64px;
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Двигаем изображение вправо */
+}

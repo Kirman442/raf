@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Footer from "./components/Footer";
+import FooterOne from "./components/FooterOne";
 import ScrollToTop from "./components/ScrollToTop"
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import Head from './components/Head';
@@ -26,7 +27,7 @@ function App() {
       <Head />
       <ScrollToTop />
       <ScrollToTopButton />
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Services" element={<Services />} />
@@ -41,7 +42,7 @@ function App() {
         <Route path="/portfolio/Dresden" element={<PortfolioDresden />} /> */}
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
-      <Footer />
+      <FooterOne />
     </div>
   );
 }
